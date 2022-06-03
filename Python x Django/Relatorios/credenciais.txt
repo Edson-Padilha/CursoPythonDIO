@@ -1,0 +1,18 @@
+Usuário: ibsppr_select
+
+Senha: sje73d93k
+
+TNS: DBPROD
+
+
+tabela igrppr.ttfzbi032001
+
+
+Homologação:
+
+Usuário: ibsppr_select
+
+pass: sje73d93k
+
+TNS: homol_ln
+

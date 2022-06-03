@@ -1,0 +1,19 @@
+
+{% include 'cabecalho.html' %}
+
+<body>
+    {% block content %}
+    <h2 class="text-center text-primary">Agendamentos</h2>
+  
+        <button type="button" class="btn btn-primary text-black" onclick="location.href='cadastra-evento/'">Novo</button>
+
+   
+    <ul>
+        {% for eventos in evento %}
+        <li>{{ eventos.titulo }} - {{ eventos.get_data_evento }}</li>        
+    </ul>
+    {% endfor %}
+</body>
+{% endblock %}
+</html>
+ 
